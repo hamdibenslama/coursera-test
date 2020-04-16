@@ -1,0 +1,103 @@
+h1{
+				color: red ;
+				font-size: 20px;
+				text-align: center; /* 3al imin right */
+				background-color: green ;
+				text-decoration: blink; /*clignoter*/
+				text-indent: 20 px ;/* phrase devient decalé */
+				border: 2px solid blue ;/*cadre*/
+			}
+.alpha{
+				color: blue ;
+				font-weight: : 900;
+				font-style: italic ;
+				line-height: 2 ; /*line height 9adech esp	ace bin stour */
+                font-family: tahoma ;	/* style mtz3 lektiba */
+				width: 400px;/*l3ardh kol 400 px thabet lestar */ 
+
+			}
+
+/*najmou nediw l7aja li nbedlouha b 3 methode yema bel classe t7otelha . wela id t7ot # 
+sinon tekteb p tbedeli l p lkol wela h1 .. ID preferé d'utilisé we9teli tebda unique ma3neha neste3mlouha mara wa7da fil page html*/
+
+#ess {
+	color: red ;
+}
+
+section li {
+
+
+	color:red ;
+}
+/* tlewen ken li li fiwost section */
+.motf {
+	color: #aa77bb  ;/*najm ne5tar color b hex ne5thou 6 chiffres 2 lwela a7mer w zouze  lo5rin a5ther W zouze lo5rin azre9 000000 abyedh FFFFFF ak7el
+	                  nejmou zeda nektbou rgb(x,y,z)x aèmer , y a5ther,z azre9 */ 
+	opacity : 0.7;   /*mil 0 7ata 1 net7aKem fi transparence ;rgba(x,y,z,h)h hiya opacity */              
+
+}
+header li{
+	list-style: none ;/*tna7i les pts */
+	text-decoration: underline;/*t7ot star */
+    text-align: center;
+    margin-bottom: 10px
+    border:1px solid blue;
+    width: 200px ;
+    background-color: green ;
+    
+
+}
+/* *{ * ma3neha tbedel fil kol */
+	/* background-color: green; */
+	/*background: url(avatar.png);/*hethi t7ot les images barcha yet3ewdou*/
+	/*background-repeat: no-repeat;
+	background-position: right center ; }*/
+
+div {
+	letter-spacing: 10px ;
+	
+	text-transform: uppercase;/* wella lower case miniscule capitalise l7arf loul mon kol kelma majuscule */
+    height: 100;
+    width: 400;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:4px;
+
+}
+.parag {
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+	padding: 20px;/*tbe3ed star mta3 cadre 3al ktiba */
+	margin: 40px;/*teb3ed 40 3al 4 jnabet ken y7eb 3el issar barka nzidou left */
+	box-shadow: 2px 3px 4px black inset ;
+	background-color: blue ;
+    overflow: auto;/* ki lektiba tatle3 mel cadre 5tr mayerfe3hech cmd hethi de(let liktiba lkol w zedet akil curseur */
+
+}
+/* fama deux types :
+block : kima div ,p,h,ol,ul,table:tebda men awel ligne ,nejem n7ot feha inline;
+inline : span ,em,strong,mark a :matebdech men awel ligne ,njmch n7ot feha type blick;*/
+
+.p1 {
+	border:1px solid black;
+	margin-bottom: 15px ;
+    background-color: #A52A2A ;
+	width : 300px;
+	height: 300px;
+}
+.p2 {
+    background-color: #DEB887 ;
+	width : 50px;
+	height: 50px;
+}/* heka ma8er media nse8er fil page maysir chy */
+@media (min-width: 992px) and (max-width: 1199px{/*/ bel media ki nsa8er fil page les cadres yebdew yes8arou m3ah*/
+	.p1 {
+		width: 50% ;
+	}
+	
+	.p2 {
+		width: 100px ;
+		height: 100px ;
+	}
+}
